@@ -242,3 +242,10 @@ font-family: circularlight;
   overflow: hidden;
 
 }
+
+@media screen and (min-width: 600px) {
+  .voto {
+
+    height:575px;
+  }
+}
