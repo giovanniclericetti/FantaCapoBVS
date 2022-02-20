@@ -5,7 +5,7 @@
 }
 
 @font-face {
-  font-family: 'circular';
+  font-family: 'circularlight';
   font-weight: normal;
   src: url("fonts/circularlight.otf") format("opentype");
   }
@@ -45,9 +45,63 @@ body {
   color: white;
 }
 
+.anno{
+font-family: circularlight;
+}
+
+
+
+.fantaquota{
+  font-family: 'MadeTommySoft';
+  color: #E95252;
+}
+
+/* ROSSO */
+.bg-tag1 {
+  background-color: #F09090;
+  border: solid 2px #C72E2E;
+}
+
+/* AZZURRO */
+.bg-tag2 {
+  background-color: #9FC6F3;
+  border: solid 2px #59A5FF;
+}
+
+/* VERDE */
+.bg-tag3 {
+  background-color: #82C578;
+  border: solid 2px #35973F;
+}
+
+/* ARANCIO */
+.bg-tag4 {
+  background-color: #FAAF6F;
+  border: solid 2px #F78F37;
+}
+
+/* VIOLA */
+.bg-tag5 {
+  background-color: #BCA7F8;
+  border: solid 2px #6134DF;
+}
+
+/* PETROLOIO */
+.bg-tag6 {
+  background-color: #FFBAEC;
+  border: solid 2px #FF66D4;
+}
+
+/* GIALLO */
+.bg-tag7 {
+  background-color: #E5D76E;
+  border: solid 2px #FFC90B;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #E95252;
+
 }
 
 .topnav a {
@@ -79,17 +133,19 @@ body {
 
 .logo{
   float: left;
-  width: 180px;
-  height: 55px;
   overflow: hidden;
   margin-left: 0px;
   position: absolute;
 }
 
-.logo img{
-  width: 70%;
+.logotipo{
+  text-align: left;
+  height: 30px;
+  margin-top: -5px
+}
 
-  margin-top: -5px;
+.logotipo img{
+  height: 100%;
 }
 
 .punta {
@@ -104,6 +160,35 @@ body {
 .punta:hover{
   background-color: #FFCBCB;
     transition: 0.3s ease-in-out;
+}
+
+.stopuntando{
+  background-color: #FFCBCB;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -126,6 +211,7 @@ body {
     display: block;
     text-align: left;
   }
+
   .punta {
     background-color: #E95252;
     margin-top: 50px;
@@ -140,4 +226,9 @@ body {
     color: #FFCBCB;
       transition: 0.3s ease-in-out;
   }
+}
+
+.card{
+  background-color: white;
+
 }
