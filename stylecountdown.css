@@ -27,19 +27,19 @@
 .title {
   font-family: circularbold;
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 3vw;
   margin: 5px;
 }
 
 .sottotitle {
   font-family: circularlightitalic;
-  font-size: 15px;
+  font-size: 2vw;
 }
 
 
 li {
   display: inline-block;
-  font-size: 15px;
+  font-size: 1.5vw;
   font-family: circularbold;
   list-style-type: none;
   padding: 3vw;
@@ -49,22 +49,7 @@ li {
 li span {
   display: block;
   width: 10vw;
-  font-size: 4.5rem;
+  font-size: 9vw;
   font-family: MadeTommySoft;
   color: #E95252;
-}
-
-
-@media all and (max-width: 768px) {
-  h1 {
-    font-size: calc(1.5rem * var(--smaller));
-  }
-
-  li {
-    font-size: calc(1.125rem * var(--smaller));
-  }
-
-  li span {
-    font-size: calc(3.375rem * var(--smaller));
-  }
 }
