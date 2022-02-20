@@ -232,3 +232,13 @@ font-family: circularlight;
   background-color: white;
 
 }
+
+.voto{
+  margin-top: 10vh;
+  overflow: hidden;
+  display: block;
+  width:500;
+  height:580px;
+  background-color: pink
+
+}
