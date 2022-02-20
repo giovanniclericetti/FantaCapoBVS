@@ -237,9 +237,11 @@ font-family: circularlight;
 .voto{
   margin-top: 5vh;
   display: block;
-  width:490px;
+  width:100vw;
   height:580px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 
 }
 
