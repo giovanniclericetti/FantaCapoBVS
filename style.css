@@ -54,6 +54,7 @@ font-family: circularlight;
 .fantaquota{
   font-family: 'MadeTommySoft';
   color: #E95252;
+  font-size: 5vh;
 }
 
 /* ROSSO */
@@ -237,15 +238,7 @@ font-family: circularlight;
   margin-top: 5vh;
   display: block;
   width:490;
-  height:575px;
+  height:565px;
   overflow: hidden;
-
-}
-
-.coprivoto{
-  position: absolute;
-  background-color: #001329;
-  width: 100vw;
-  height: 20vh;
 
 }
