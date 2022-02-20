@@ -245,7 +245,6 @@ font-family: circularlight;
 
 @media screen and (min-width: 600px) {
   .voto {
-
-    height:575px;
+    height:580px;
   }
 }
