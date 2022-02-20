@@ -234,10 +234,18 @@ font-family: circularlight;
 }
 
 .voto{
-  margin-top: 10vh;
+  margin-top: 5vh;
   display: block;
   width:490;
   height:575px;
   overflow: hidden;
+
+}
+
+.coprivoto{
+  position: absolute;
+  background-color: #001329;
+  width: 100vw;
+  height: 20vh;
 
 }
