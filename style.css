@@ -237,11 +237,7 @@ font-family: circularlight;
 .voto{
   margin-top: 5vh;
   display: block;
-<<<<<<< HEAD
   width:100vw;
-=======
-  width:490;
->>>>>>> 24c247fc0bd5946a2d5d282e9fb059e2aff8da2b
   height:580px;
   overflow: hidden;
   display: flex;
@@ -251,11 +247,7 @@ font-family: circularlight;
 
 @media screen and (max-width: 600px) {
   .voto {
-<<<<<<< HEAD
     height:565px;
-=======
-    height:565;
->>>>>>> 24c247fc0bd5946a2d5d282e9fb059e2aff8da2b
     background-color: pink;
   }
 }
