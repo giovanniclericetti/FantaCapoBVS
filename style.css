@@ -238,13 +238,14 @@ font-family: circularlight;
   margin-top: 5vh;
   display: block;
   width:490;
-  height:565px;
+  height:580px;
   overflow: hidden;
 
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .voto {
-    height:580px;
+    height:565;
+    background-color: pink;
   }
 }
