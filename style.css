@@ -237,15 +237,15 @@ font-family: circularlight;
 .voto{
   margin-top: 5vh;
   display: block;
-  width:490;
-  height:565px;
+  width:490px;
+  height:580px;
   overflow: hidden;
 
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .voto {
-
-    height:575px;
+    height:565px;
+    background-color: pink;
   }
 }
