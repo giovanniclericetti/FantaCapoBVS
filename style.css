@@ -510,7 +510,52 @@ width: 100%;
   font-size: 14px;
 }
 
+
+.parallax {
+  /* The image used */
+  background-image: url("assets/articolo1hd.png");
+
+  /* Set a specific height */
+  height: 650px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.infocontainer{
+  height:  1400px;
+  font-size: 14px;
+}
+
+.tornahome{
+  background-color: #E95252;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  font-size: 18px;
+  font-family: Circular;
+}
+
+.tornahome:hover{
+  background-color: #FF9D9D;
+    transition: 0.3s ease-in-out;
+}
+
+.leggianche{
+margin-right: 30px;
+}
+
 @media screen and (max-width: 600px) {
+
+.parallax{
+  height: 200px;
+}
 
 
 .bonuspunteggio{
