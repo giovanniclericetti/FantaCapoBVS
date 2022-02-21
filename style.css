@@ -459,9 +459,13 @@ width: 100%;
   font-family: Circular;
   outline: none;
   width: 250px;
-  height: 35px;
-  border: none;
-  border-bottom: 2px solid #ffffff;
+  height: 45px;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  background-color: #E95252;
+  color: white;
+
+
 }
 
 .confirm {
@@ -472,6 +476,38 @@ width: 100%;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
+}
+
+.submit{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width:auto;
+    color: #E95252;
+    font-size: 15px;
+    padding: 5px 20px 2px 20px;
+    font-family: CircularBold;
+}
+
+
+.submit:hover{
+  background-color: #FFCBCB;
+    transition: 0.3s ease-in-out;
+}
+
+.boxrosso{
+    background-color: #E95252;
+    width: 360px;
+    border-radius: 20px;
+}
+
+.boxrosso h4{
+  font-family: CircularBold;
+}
+
+.boxrosso h5{
+  font-family: circularlightitalic;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 600px) {
