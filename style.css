@@ -111,6 +111,7 @@ font-family: circularlight;
   position: fixed;
   width: 100%;
   top: 0px;
+  z-index: 999;
 }
 
 .topnav a {
@@ -244,11 +245,10 @@ font-family: circularlight;
 }
 
 .voto{
-  margin-top: 5vh;
+  margin-top: 100px;
   display: block;
   width:100vw;
-  height:580px;
-  overflow: hidden;
+
   display: flex;
   justify-content: center;
 
@@ -354,11 +354,46 @@ width: 100%;
 
 }
 
+.payment{
+
+  width: 80vw;
+  height: 100px;
+  text-align: center;
+  color: white;
+  margin-bottom: 20vh;
+}
+
+.payment a:hover #boxpaypal{
+  background-color: #FF9D9D;
+    transition: 0.3s ease-in-out;
+}
+
+.sottotitolopayment{
+  margin-top: -8px;
+}
+
+.frasesottopayment{
+  font-size: 10px;
+  font-family: circularlightitalic;
+    margin-top: 10px;
+}
+
+.boxpaypal{
+  width: 300px;
+  height: 40px;
+  background-color:#E95252;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+.boxpaypal img{
+  height: 60%;
+  margin-top: 3%;
+}
 
 @media screen and (max-width: 600px) {
-  .voto {
-    height:565px;
-  }
+
 
 .bonuspunteggio{
   margin-bottom: 10px;
