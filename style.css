@@ -296,7 +296,7 @@ font-family: circularlight;
 }
 
 .positive {
-  color: green;
+  color: #86E477;
 }
 
 .logohome{
@@ -328,6 +328,17 @@ width: 100%;
 .articolo{
   width: 100%;
   color: white;
+}
+
+.articolo a{
+  text-decoration: none;
+  color: white;
+}
+
+.articolo a:hover{
+  text-decoration: none;
+  color: #FFCBCB;
+  transition: 0.3s ease-in-out;
 }
 
 .articolo img{
@@ -394,8 +405,6 @@ width: 100%;
 
 .disclaimer{
   background-color: #E95252;
-  margin-left: 15%;
-  margin-right: 15%;
   margin-bottom: 10%;
   color: white;
   border-radius: 20px;
@@ -405,7 +414,7 @@ width: 100%;
   background-color: #2D9CDB;
   margin-top: 130px;
   border-style: solid;
-  border-width: 3px 0px 3px 0px;
+  border-width: 3px 0px 0px 0px;
   border-color: white;
   padding-top: 50px;
     padding-bottom: 50px;
@@ -414,8 +423,55 @@ width: 100%;
 .footertext{
   font-family: Circular;
   color: white;
+}
 
+.containertuttahome{
+  margin-left: 40px;
+  margin-right: 40px;
+}
 
+.marginal{
+  height: 50px;
+
+}
+
+.div1 {
+  height: 100%;
+  width: 100%;
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.div2 {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Circular;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.box {
+  text-align: center;
+  font-size: 20px;
+  font-family: Circular;
+  outline: none;
+  width: 250px;
+  height: 35px;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+}
+
+.confirm {
+  border: none;
+  font-size: 20px;
+  font-family: Circular;
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
