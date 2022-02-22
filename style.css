@@ -560,6 +560,45 @@ width: 100%;
 margin-right: 30px;
 }
 
+.div1 {
+  height: 100%;
+  width: 100%;
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.div2 {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Circular;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.box {
+  text-align: center;
+  font-size: 20px;
+  font-family: Circular;
+  outline: none;
+  width: 250px;
+  height: 35px;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+}
+
+.confirm {
+  border: none;
+  font-size: 20px;
+  font-family: Circular;
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
 @media screen and (max-width: 600px) {
 
 .parallax{
