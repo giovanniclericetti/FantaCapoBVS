@@ -270,6 +270,7 @@ font-family: circularlight;
 .rgtext{
   font-family: circularlight;
     margin-bottom: 30px;
+    font-size: 1.2rem;
 }
 
 .rgtitle{
@@ -459,6 +460,130 @@ width: 100%;
   font-family: Circular;
   outline: none;
   width: 250px;
+  height: 45px;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  background-color: #E95252;
+  color: white;
+
+
+}
+
+.confirm {
+  border: none;
+  font-size: 20px;
+  font-family: Circular;
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+.submit{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width:auto;
+    color: #E95252;
+    font-size: 15px;
+    padding: 5px 20px 2px 20px;
+    font-family: CircularBold;
+}
+
+
+.submit:hover{
+  background-color: #FFCBCB;
+    transition: 0.3s ease-in-out;
+}
+
+.boxrosso{
+    background-color: #E95252;
+    width: 360px;
+    border-radius: 20px;
+}
+
+.boxrosso h4{
+  font-family: CircularBold;
+}
+
+.boxrosso h5{
+  font-family: circularlightitalic;
+  font-size: 14px;
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url("assets/articolo1hd.png");
+
+  /* Set a specific height */
+  height: 650px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("assets/articolo2hd.png");}
+
+  .parallax3 {
+    /* The image used */
+    background-image: url("assets/articolo3hd.png");}
+
+.infocontainer{
+  height:  1400px;
+  font-size: 14px;
+}
+
+.tornahome{
+  background-color: #E95252;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  font-size: 18px;
+  font-family: Circular;
+}
+
+.tornahome:hover{
+  background-color: #FF9D9D;
+    transition: 0.3s ease-in-out;
+}
+
+.leggianche{
+margin-right: 30px;
+}
+
+.div1 {
+  height: 100%;
+  width: 100%;
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.div2 {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Circular;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.box {
+  text-align: center;
+  font-size: 20px;
+  font-family: Circular;
+  outline: none;
+  width: 250px;
   height: 35px;
   border: none;
   border-bottom: 2px solid #ffffff;
@@ -476,6 +601,10 @@ width: 100%;
 
 @media screen and (max-width: 600px) {
 
+.parallax{
+  height: 200px;
+}
+
 
 .bonuspunteggio{
   margin-bottom: 10px;
@@ -485,6 +614,8 @@ width: 100%;
   margin-left: 0px;
 }
 
-
+.rgtext{
+  font-size: 15rpx;
+}
 
 }
