@@ -263,6 +263,16 @@ body {
 
 }
 
+.cardhunt {
+  background-color: white;
+  width: 50vh;
+}
+
+.cardhunt:hover {
+  background-color: #E95252;
+  transition: 0.1s;
+}
+
 .voto {
   margin-top: 100px;
   display: block;
@@ -378,7 +388,6 @@ body {
   font-family: Circular;
   font-size: 12px;
   margin-top: -4px;
-  :
 }
 
 .tuttahome {
