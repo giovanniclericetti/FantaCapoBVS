@@ -260,17 +260,18 @@ body {
 
 .card {
   background-color: white;
-
 }
 
 .cardhunt {
-  background-color: white;
+  background-color: #E95252;
   width: 50vh;
 }
 
 .cardhunt:hover {
-  background-color: #E95252;
   transition: 0.1s;
+}
+
+
 }
 
 .voto {
