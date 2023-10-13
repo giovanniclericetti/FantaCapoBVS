@@ -11,7 +11,23 @@
   padding: 0;
 }
 
+.title{
+  font-size: 80px;
+  font-family:
+  MadeTommySoft;
+  color: #E95252;
+  margin-top: 10vh;
+  margin-bottom: 20px;
+  text-align: left;
 
+}
+
+.sottotitle {
+  font-family: circularlight;
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-align: center;
+}
 
 .cdcontainer {
   color: white;
@@ -24,17 +40,16 @@
   margin-top: 20vh;
 }
 
-.title {
-  font-family: circularbold;
-  text-transform: uppercase;
-  font-size: 2.5vw;
-  margin: 5px;
+
+@media screen and (max-width: 600px) {
+
+.title{
+    font-size: 40px;
 }
 
-.sottotitle {
-  font-family: circularlightitalic;
-  font-size: 1.7vw;
 }
+
+
 
 
 li {
