@@ -103,19 +103,19 @@ text-align: center;
 
 .fantaquota {
   font-family: 'MadeTommySoft';
-  color: #E95252;
+  color: #B9D2FF;
   font-size: 5vh;
 }
 
-/* ROSSO */
+/* BLU */
 .bg-tag1 {
-  background-color: #F09090;
+  background-color: #B9D2FF;
   border: solid 2px #C72E2E;
 }
 
 /* AZZURRO */
 .bg-tag2 {
-  background-color: #9FC6F3;
+  background-color: #B9D2FF;
   border: solid 2px #59A5FF;
 }
 
@@ -151,7 +151,7 @@ text-align: center;
 
 .topnav {
   overflow: hidden;
-  background-color: #E95252;
+  background-color: #B9D2FF;
   position: fixed;
   width: 100%;
   top: 0px;
@@ -171,13 +171,13 @@ text-align: center;
 }
 
 .topnav a:hover {
-  color: #FFCBCB;
+  color: #ffffff;
   transition: 0.3s ease-in-out;
 }
 
 
 .topnav a.active {
-  color: #FFCBCB;
+  color: #1872F0;
 
   text-decoration: underline;
   text-decoration-thickness: 18%;
@@ -210,7 +210,7 @@ text-align: center;
   margin-top: -10px;
   margin-bottom: -10px;
   border-radius: 5px;
-  color: #E95252;
+  color: #B9D2FF;
 }
 
 .punta:hover {
@@ -287,7 +287,7 @@ text-align: center;
   }
 
   .punta {
-    background-color: #E95252;
+    background-color: #B9D2FF;
     margin-top: 50px;
     margin-bottom: 0px;
     display: block;
@@ -297,7 +297,7 @@ text-align: center;
   }
 
   .punta:hover {
-    background-color: #E95252;
+    background-color: #B9D2FF;
     color: #FFCBCB;
     transition: 0.3s ease-in-out;
   }
@@ -308,7 +308,7 @@ text-align: center;
 }
 
 .cardhunt {
-  background-color: #E95252;
+  background-color: #B9D2FF;
   width: 50vh;
 }
 
@@ -398,7 +398,7 @@ text-align: center;
 }
 
 .bonuspunteggio {
-  color: #E95252;
+  color: #B9D2FF;
   font-family: MadeTommySoft;
   font-size: 30px;
 }
@@ -501,7 +501,7 @@ text-align: center;
 .boxpaypal {
   width: 300px;
   height: 40px;
-  background-color: #E95252;
+  background-color: #B9D2FF;
   text-align: center;
   border-radius: 10px;
 
@@ -513,7 +513,7 @@ text-align: center;
 }
 
 .disclaimer {
-  background-color: #E95252;
+  background-color: #B9D2FF;
   margin-bottom: 10%;
   color: white;
   border-radius: 20px;
@@ -571,7 +571,7 @@ text-align: center;
   height: 45px;
   border: 2px solid #ffffff;
   border-radius: 15px;
-  background-color: #E95252;
+  background-color: #B9D2FF;
   color: white;
 
 
@@ -605,7 +605,7 @@ text-align: center;
 }
 
 .boxrosso {
-  background-color: #E95252;
+  background-color: #B9D2FF;
   width: 360px;
   border-radius: 20px;
 }
@@ -650,7 +650,7 @@ text-align: center;
 }
 
 .tornahome {
-  background-color: #E95252;
+  background-color: #B9D2FF;
   text-decoration: none;
   text-align: center;
   border-radius: 5px;
