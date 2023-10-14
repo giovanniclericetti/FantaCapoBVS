@@ -59,7 +59,7 @@ body {
   font-size: 80px;
   font-family:
   MadeTommySoft;
-  color: #E95252;
+  color: #BFD3FB;
   margin-top: 10vh;
   margin-bottom: 20px;
   text-align: center;
@@ -398,7 +398,7 @@ text-align: center;
 }
 
 .bonuspunteggio {
-  color: #B9D2FF;
+  color: #E95252;
   font-family: MadeTommySoft;
   font-size: 30px;
 }

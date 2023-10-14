@@ -15,7 +15,7 @@
   font-size: 80px;
   font-family:
   MadeTommySoft;
-  color: #E95252;
+  color: #B9D2FF;
   margin-top: 10vh;
   margin-bottom: 20px;
 
@@ -68,7 +68,7 @@ li span {
   width: 10vw;
   font-size: 9vw;
   font-family: MadeTommySoft;
-  color: #E95252;
+  color: #B9D2FF;
 }
 
 @media screen and (max-width: 600px) {
@@ -86,7 +86,7 @@ li span {
   width: 100vw;
   font-size: 100px;
   font-family: MadeTommySoft;
-  color: #E95252;
+  color: #B9D2FF;
 }
 
 .title{
