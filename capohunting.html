@@ -2,109 +2,106 @@
 <html lang="en">
 
 <head>
-    <title>FantaCapo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/svg" href="assets/icon.svg">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <title>FantaCapo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg" href="assets/icon.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-    <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
 
-        // Next/previous controls
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-
-        // Thumbnail image controls
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style display = "block";
-          dots[slideIndex-1].className += " active";
-        }
-    </script>
 </head>
 
 <body style="background-color: #001329; margin: 0; font-family: circularbold;">
-    <div class="topnav" id="myTopnav">
-        <a href="home.html" class="logo">
-            <div class="logotipo"> <img src="assets/logotype.svg"> </div>
-        </a>
-        <a href="fantavoto.html">
-            <div class="punta"> PUNTA AL <b> FANTACAPO </b> </div>
-        </a>
-        <a href="capohunting.html" class="active">CAPO HUNTING</a>
-        <a href="countdown.html">COUNTDOWN</a>
-        <a href="fantaquote.html">FANTAQUOTE</a>
-        <a href="regolamento.html">REGOLAMENTO</a>
-        <a href="home.html">HOMEPAGE</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
+  <div class="topnav" id="myTopnav">
+    <a href="home.html" class="logo">
+      <div class="logotipo"> <img src="assets/logotype.svg"> </div>
+    </a>
+    <a href="fantavoto.html">
+      <div class="punta"> PUNTA AL <b> FANTACAPO </b> </div>
+    </a>
+    <a href="capohunting.html" class="active">CAPO HUNTING</a>
+    <a href="countdown.html">COUNTDOWN</a>
+    <a href="fantaquote.html">FANTAQUOTE</a>
+    <a href="regolamento.html">REGOLAMENTO</a>
+    <a href="home.html">HOMEPAGE</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="container">
+    <div class="scrittecontainer">
+      <br>
+      <div class="cdcontainer">
+        <h3 class="title">
+          CAPO HUNTING
+        </h3>
+      </div>
+
+      <p class="rgtext" style="max-width: 75%">
+        Chi sarà il prossimo il Capo? Ecco qui tutte le Fantaquote della Bovisa stabilite per i
+        possibili candidat*. Si è arrivati a questi numeri dopo un attento
+        studio da parte del Team di FantaCapo, metchando i diversi Bonus e Malus,
+        i quali sono stati accuratamente presentati nella sezione del Regolamento!
+      </p>
     </div>
 
-    <div class="container">
-        <div class="scrittecontainer">
-            <br>
-            <div class="cdcontainer">
-                <h3 class="title" >
-                    CAPO HUNTING
-                </h3>
-            </div>
 
-            <p class="rgtext" style="max-width: 75%">
-                Chi sarà il prossimo il Capo? Ecco qui tutte le Fantaquote della Bovisa stabilite per i
-                possibili candidat*. Si è arrivati a questi numeri dopo un attento
-                studio da parte del Team di FantaCapo, metchando i diversi Bonus e Malus,
-                i quali sono stati accuratamente presentati nella sezione del Regolamento!
-            </p>
+    <div class="w3-content w3-display-container hcont" style="margin-top: 30px">
+
+      <div class="w3-display-container mySlides fotohunting">
+        <img src="assets/capohunting/12.jpg">
+        <div class="w3-display-bottommiddle huntingbio">
+          Ecco qui tutte le Fantaquote della Bovisa stabilite per i possibili candidat Ecco qui tutte le Fantaquote della Bovisa stabilite per i possibili candidat
         </div>
+      </div>
 
-        <!-- Slideshow container -->
-        <div class="slideshow-container">
-            <!-- Full-width images with number and caption text -->
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src="assets/capohunting/3.jpg" style="width:100%">
-                <div class="text">Caption Text</div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="assets/capohunting/2.jpg"  style="width:100%">
-                <div class="text">Caption Two</div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="assets/capohunting/3.jpg"  style="width:100%">
-                <div class="text">Caption Three</div>
-            </div>
-
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <div class="w3-display-container mySlides fotohunting">
+        <img src="assets/capohunting/23.jpg">
+        <div class="w3-display-bottommiddle huntingbio">
+          French Alps
         </div>
-        <br>
+      </div>
 
+      <div class="w3-display-container mySlides fotohunting">
+        <img src="assets/capohunting/6.jpg">
+        <div class="w3-display-bottommiddle huntingbio">
+          French Alps
+        </div>
+      </div>
 
+      <button class="w3-button w3-display-left" style="background-color: #BFD3FB; color: #3670E5; border-radius: 5px" onclick="plusDivs(-1)">&#10094;</button>
+      <button class=" w3-button w3-display-right " style="background-color: #BFD3FB; color: #3670E5; border-radius: 5px" onclick="plusDivs(1)">&#10095;</button>
     </div>
+
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = x.length
+      }
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex - 1].style.display = "block";
+    }
+  </script>
+
 </body>
+
 </html>
