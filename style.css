@@ -62,7 +62,7 @@ body {
   color: #E95252;
   margin-top: 10vh;
   margin-bottom: 20px;
-  text-align: left;
+  text-align: center;
 
 }
 
@@ -365,7 +365,20 @@ text-align: center;
 
 .rgtitle {
   margin-top: 0px;
+text-align: center;
+}
 
+.boxrg{
+  display: flex;
+}
+
+.spacebox {
+  width: 60%;
+  text-align: center;
+}
+
+.spacebox img {
+  height: 100%
 }
 
 .bonus {
