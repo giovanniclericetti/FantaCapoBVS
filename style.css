@@ -177,7 +177,7 @@ text-align: center;
 
 
 .topnav a.active {
-  color: #1872F0;
+  color: #3670E5;
 
   text-decoration: underline;
   text-decoration-thickness: 18%;
@@ -214,12 +214,14 @@ text-align: center;
 }
 
 .punta:hover {
-  background-color: #FFCBCB;
+  background-color: #3670E5;
   transition: 0.3s ease-in-out;
+  color: white;
 }
 
 .stopuntando {
-  background-color: #FFCBCB;
+  background-color: #3670E5;
+  color: white;
 }
 
 
@@ -298,7 +300,7 @@ text-align: center;
 
   .punta:hover {
     background-color: #B9D2FF;
-    color: #FFCBCB;
+    color: white;
     transition: 0.3s ease-in-out;
   }
 }
@@ -445,7 +447,7 @@ text-align: center;
 
 .articolo a:hover {
   text-decoration: none;
-  color: #FFCBCB;
+  color: #B9D2FF;
   transition: 0.3s ease-in-out;
 }
 
@@ -483,7 +485,7 @@ text-align: center;
 }
 
 .payment a:hover #boxpaypal {
-  background-color: #FF9D9D;
+  background-color: #B9D2FF;
   transition: 0.3s ease-in-out;
 }
 
@@ -592,7 +594,7 @@ text-align: center;
   border: none;
   border-radius: 10px;
   width: auto;
-  color: #E95252;
+  color: #3670E5;
   font-size: 15px;
   padding: 10px 20px 8px 20px;
   font-family: CircularBold;
@@ -600,7 +602,8 @@ text-align: center;
 
 
 .submit:hover {
-  background-color: #FFCBCB;
+  background-color: #3670E5;
+  color: white;
   transition: 0.3s ease-in-out;
 }
 
@@ -662,7 +665,7 @@ text-align: center;
 }
 
 .tornahome:hover {
-  background-color: #FF9D9D;
+  background-color: #B9D2FF;
   transition: 0.3s ease-in-out;
 }
 
