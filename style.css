@@ -162,7 +162,7 @@ body {
 
   float: right;
   display: block;
-  color: #f2f2f2;
+  color: #3D8AF5;
   text-align: center;
   padding: 20px 16px;
   text-decoration: none;
@@ -177,7 +177,7 @@ body {
 
 
 .topnav a.active {
-  color: #3670E5;
+  color: #1872F0;
 
   text-decoration: underline;
   text-decoration-thickness: 18%;
@@ -205,7 +205,7 @@ body {
 }
 
 .punta {
-  background-color: white;
+  background-color: #1872F0;
   padding: 10px 15px;
   margin-top: -10px;
   margin-bottom: -10px;
@@ -214,7 +214,7 @@ body {
 }
 
 .punta:hover {
-  background-color: #3670E5;
+  background-color: #3D8AF5;
   transition: 0.3s ease-in-out;
   color: white;
 }
