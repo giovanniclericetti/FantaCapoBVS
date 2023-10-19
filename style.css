@@ -55,10 +55,10 @@ body {
 }
 
 
-.title{
+.title {
   font-size: 80px;
   font-family:
-  MadeTommySoft;
+    MadeTommySoft;
   color: #BFD3FB;
   margin-top: 10vh;
   margin-bottom: 20px;
@@ -68,35 +68,35 @@ body {
 
 .sottotitle {
   font-family: circularlight;
-    margin-bottom: 30px;
-    font-size: 18px;
-    text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-align: center;
 }
 
-.hcont{
+.hcont {
   justify-content: center;
   align-content: center;
   display: flex;
-width: 70%;
+  width: 70%;
 }
 
-.fotohunting{
-height: 500px;
+.fotohunting {
+  height: 500px;
 
 }
 
-.fotohunting img{
-  height:100%;
+.fotohunting img {
+  height: 100%;
   border-radius: 5px;
 }
 
-.huntingbio{
+.huntingbio {
   font-family: CircularBold;
   text-shadow: 0px 0px 3px black;
-    font-size: 16px;
-    text-align: center;
+  font-size: 16px;
+  text-align: center;
   width: 600px;
-text-align: center;
+  text-align: center;
 }
 
 
@@ -331,10 +331,6 @@ text-align: center;
 
 
 
-
-
-
-
 .voto {
 
   margin-top: 100px;
@@ -367,10 +363,10 @@ text-align: center;
 
 .rgtitle {
   margin-top: 0px;
-text-align: center;
+  text-align: center;
 }
 
-.boxrg{
+.boxrg {
   display: flex;
 }
 
