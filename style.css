@@ -643,6 +643,11 @@ body {
   background-image: url("assets/articolo3hd.png");
 }
 
+.parallax4 {
+  /* The image used */
+  background-image: url("assets/articolo4hd.png");
+}
+
 .infocontainer {
   height: 1400px;
   font-size: 14px;
