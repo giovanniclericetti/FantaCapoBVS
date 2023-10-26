@@ -175,7 +175,7 @@ body {
 }
 
 .topnav a:hover {
-  color: #ffffff;
+  color: #527BCF;
   transition: 0.3s ease-in-out;
 }
 
@@ -200,7 +200,7 @@ body {
 
 .logotipo {
   text-align: left;
-  height: 30px;
+  height: 35px;
   margin-top: -5px
 }
 
@@ -215,6 +215,11 @@ body {
   margin-bottom: -10px;
   border-radius: 5px;
   color: #B9D2FF;
+}
+
+.form{
+  width: 640px;
+   height= 1010px;
 }
 
 .punta:hover {
@@ -557,7 +562,7 @@ body {
 
 .footer {
   background-color: #2D9CDB;
-  margin-top: 130px;
+  margin-top: 80px;
   border-style: solid;
   border-width: 3px 0px 0px 0px;
   border-color: white;
@@ -791,6 +796,26 @@ body {
     font-size: 18px;
     text-align: center;
   }
+
+  .logohome {
+    text-align: center;
+    width: 80%;
+    margin: 150px 10% 80px 10% ;
+  }
+
+  .huntingbio {
+    font-family: CircularBold;
+    text-shadow: 0px 0px 3px black;
+    font-size: 14px;
+    text-align: center;
+    width: 80%;
+    text-align: center;
+  }
+
+  .logohome img {
+    width: 100%;
+  }
+
 
 
 }
