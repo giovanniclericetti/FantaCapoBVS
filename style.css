@@ -68,7 +68,6 @@ body {
   margin-top: 10vh;
   margin-bottom: 20px;
   text-align: center;
-
 }
 
 .sottotitle {
@@ -769,6 +768,22 @@ body {
     font-size: 15px;
   }
 
+  .title {
+    font-size: 32px;
+    font-family:
+      MadeTommySoft;
+    color: #BFD3FB;
+    margin-top: 10vh;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .sottotitle {
+    font-family: circularlight;
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-align: center;
+  }
 
 
 
