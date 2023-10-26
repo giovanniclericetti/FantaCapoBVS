@@ -652,13 +652,19 @@ body {
   border-radius: 20px;
 }
 
+.boxfanta img{
+  height: 80px;
+}
+
 .boxrosso h4 {
   font-family: CircularBold;
+  color: #3670E5;
 }
 
 .boxrosso h5 {
   font-family: circularlightitalic;
   font-size: 14px;
+    color: #3670E5;
 }
 
 
