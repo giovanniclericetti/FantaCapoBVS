@@ -11,43 +11,15 @@
   padding: 0;
 }
 
-.title{
-  font-size: 80px;
-  font-family:
-  MadeTommySoft;
-  color: #B9D2FF;
-  margin-top: 10vh;
-  margin-bottom: 20px;
-
 
 }
 
-.sottotitle {
-  font-family: circularlight;
-    margin-bottom: 30px;
-    font-size: 18px;
-    text-align: center;
-}
-
-.cdcontainer {
-  color: white;
-  margin: 0 auto;
-  text-align: center;
-
-}
-
-.cdtext{
-  margin-top: 20vh;
-}
 
 
 
 
 @media screen and (max-width: 600px) {
 
-.title{
-    font-size: 40px;
-}
 
 }
 
@@ -83,21 +55,11 @@ li{
 
 li span {
   display: block;
-  width: 100vw;
-  font-size: 100px;
+  width: 100%;
+  font-size: 70px;
   font-family: MadeTommySoft;
   color: #B9D2FF;
 }
 
-.title{
-  font-size: 20px;
-  margin: 5px;
-  margin-top: -50px;
-}
-
-.sottotitle{
-  font-size: 13px;
-  margin-bottom: 15px;
-}
 
 }

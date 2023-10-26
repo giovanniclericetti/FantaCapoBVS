@@ -363,6 +363,7 @@ body {
 }
 
 
+
 .voto {
 
   margin-top: 10px;
@@ -387,6 +388,12 @@ body {
 }
 
 .rgtext {
+  font-family: circularlight;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+.rgtextcenter {
   font-family: circularlight;
   margin-bottom: 30px;
   font-size: 1.2rem;
@@ -784,8 +791,6 @@ body {
     font-size: 18px;
     text-align: center;
   }
-
-
 
 
 }
