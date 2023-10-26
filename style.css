@@ -43,6 +43,11 @@
 }
 
 
+.formvoto{
+  background-color: pink;
+}
+
+
 body {
   margin: 0;
   font-family: circularbold;
@@ -329,14 +334,41 @@ body {
 ╚══════╝╚══════╝╚═╝╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝ ╚═════╝  ╚══╝╚══╝
 */
 
+.imgrespo{
+  font-size: 40px;
+  text-align: center;
+}
+
+.respotxt {
+  font-family: Circular;
+  margin-left: 30px;
+  color: white;
+}
+
+.respobox {
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center
+}
+
+.respobox1 {
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center
+}
 
 
 .voto {
 
-  margin-top: 100px;
+  margin-top: 10px;
   display: block;
   width: 100vw;
-
   display: flex;
   justify-content: center;
 
