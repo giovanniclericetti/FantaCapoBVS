@@ -402,6 +402,7 @@ body {
   font-family: circularlight;
   margin-bottom: 30px;
   font-size: 1.2rem;
+    text-align: center;
 }
 
 .rgtitle {
@@ -633,7 +634,7 @@ body {
   border: none;
   border-radius: 10px;
   width: auto;
-  color: #B9D2FF;
+  color: #3670E5;
   font-size: 15px;
   padding: 10px 20px 8px 20px;
   font-family: CircularBold;
@@ -818,10 +819,16 @@ body {
     text-align: center;
   }
 
+  .rgtextcenter {
+    font-family: circularlight;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+      text-align: left;
+  }
+
   .logohome img {
     width: 100%;
   }
-
 
 
 }
